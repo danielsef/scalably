@@ -1,4 +1,10 @@
 
+## Yes, You Can Have a Nice Developer Experience on Windows!
+https://www.kdechant.com/blog/developer-experience-windows
+
+
+
+
 
 https://auth0.com/blog/an-introduction-to-microservices-part-1//
 
