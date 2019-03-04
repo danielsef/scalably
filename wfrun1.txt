@@ -1,0 +1,35 @@
+from requests import *
+from argparse import *
+from os import *
+import subprocess
+import time
+from dotenv import load_dotenv
+import os
+
+def runner():
+    print("Hi!")
+    print(os.getenv("KEY1"))
+    time.sleep(5)
+    subprocess.call(["ls", "-l"])
+
+
+# 4.) Streamsets: Reset the Pipeline(Crean state cache); CAll File => HBASE Loader Pipeline   Result: AggrTraining.json is loaded to HBASE (The Pipeline will be in finished state when all rows will be loaded)
+
+
+    #You can pass the argument using the following syntax i.e run ls -l /etc/resolv.conf command:
+    #subprocess.call(["ls", "-l", "/etc/resolv.conf"])
+
+# 11.) CAll H2O API (???) .... Result: Modeldetails.json upload and meta processing in the database
+# ... ???
+
+
+# 24.) Streamsets: Reset the Pipeline(Crean state cache); CAll File => HBASE Loader Pipeline   Result: AggrFeaturedDb.json is loaded to HBASE (The Pipeline will be in finished state when all rows will be loaded)
+
+
+if __name__ == '__main__':
+    load_dotenv()
+    runner()
+
+
+
+
